@@ -71,8 +71,8 @@ hr.new1 {
 }
 
 .philosiphyimage {
-    width: 200px;
-    height: 200px;
+    width: 10rem;
+    height: 10rem;
     object-fit: cover;
     margin-bottom: 10px;
     margin-top: 10px;
