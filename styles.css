@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: "Asap Condensed", sans-serif;
+    background-color: #C9CBA3;
+    padding-bottom: 40px;
+
+
+}
+
+.header_name {
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+}
+
+.headerblurb {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+.block_title {
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+hr.new1 {
+    border-top: 1px #472D30;
+}
+
+.title {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+}
+
+.threestepphil {
+    background-color: #FFE1A8;
+
+}
+
+.bulletpoint {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+}
+
+.philosiphyimage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+    border: 3px solid #723D46;
+}
+
+.threestep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: normal;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.myworktitle {
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+.myworkblock img {
+    width: 45%;
+    border-radius: 25px;
+    margin: auto;
+    border: 3px solid #723D46;
+
+}
+
+.myworkblock {
+    background-color: #E26D5C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    padding-top: 25px;
+    gap: 25px;
+    margin: auto;
+    letter-spacing: 1px;
+
+}
+
+.philosophy {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 45%;
+}
+
+.philosophy h1 {
+    margin-bottom: 40px;
+}
+
+.mywork {
+    display: grid;
+    grid-template-areas: '1fr 1fr'
+        '1fr 1fr';
+    padding-inline: 75px;
+    padding: 15px;
+    justify-content: space-between;
+    font-family: "Asap Condensed", sans-serif;
+    letter-spacing: 1px;
+    background-color: #E26D5C;
+
+}
+
+.commablurb {
+    text-align: center;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+footer {
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    font-family: "Asap Condensed", sans-serif;
+    background-color: #C9CBA3;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    padding-top: 25px;
+    gap: 25px;
+    margin: auto;
+}
+
+
+
+
+.asap-condensed-extralight {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.asap-condensed-light {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.asap-condensed-regular {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.asap-condensed-medium {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.asap-condensed-semibold {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.asap-condensed-bold {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.asap-condensed-extrabold {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.asap-condensed-black {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.asap-condensed-extralight-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.asap-condensed-light-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.asap-condensed-regular-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.asap-condensed-medium-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.asap-condensed-semibold-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.asap-condensed-bold-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.asap-condensed-extrabold-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.asap-condensed-black-italic {
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
